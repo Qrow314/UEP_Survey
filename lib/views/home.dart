@@ -29,7 +29,7 @@ class _HomeState extends State<Home> {
         child: Icon(Icons.add),
         onPressed: () {
           Navigator.push(
-              context, MaterialPageRoute(builder: (context) => CreateQuiz()));
+              context, MaterialPageRoute(builder: (context) => CreateSurvey()));
         },
       ),
     );

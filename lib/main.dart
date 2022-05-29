@@ -5,7 +5,6 @@ import 'package:firebase_core/firebase_core.dart';
 //void main() {
 //  runApp(const MyApp());}
 
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -24,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Signin(),//const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: Signin(), //const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
@@ -49,7 +48,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
