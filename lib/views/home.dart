@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uep_survey/views/create_quiz.dart';
 import 'package:uep_survey/views/signin.dart';
 
 class Home extends StatefulWidget {
@@ -28,7 +29,7 @@ class _HomeState extends State<Home> {
         child: Icon(Icons.add),
         onPressed: () {
           Navigator.push(
-              context, MaterialPageRoute(builder: (context) => Signin()));
+              context, MaterialPageRoute(builder: (context) => CreateQuiz()));
         },
       ),
     );
